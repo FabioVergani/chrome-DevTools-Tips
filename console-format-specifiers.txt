@@ -1,0 +1,20 @@
+Specifier/Output 
+ %s	 Formats the value as a string
+ %i or %d	 Formats the value as an integer
+ %f	 Formats the value as a floating point value
+ %o	 Formats the value as an expandable DOM element. As seen in the Elements panel 
+ %O	 Formats the value as an expandable JavaScript object
+ %c	 Applies CSS style rules to the output string as specified by the second parameter
+ 
+console.log("%cThis is a green text", "color:green");
+console.log("%cThis is a blue text", "color:blue");
+console.log("%cThis is a yellow text", "color:yellow");
+console.log("%cThis is a red text", "color:red");
+
+console.log("%cThis is a default font style","color: blue; font-size: 20px");
+console.log("%cThis is a custom font style","color: blue; font-family:serif; font-size: 20px");
+console.log("%cThis is a custom font style","color: blue; font-family:monospace; font-size: 20px");
+console.log("%cThis is a custom font style","color: blue; font-family:sans-serif; font-size: 20px");
+
+https://developers.google.com/web/tools/chrome-devtools/console/api
+https://developers.google.com/web/tools/chrome-devtools/console/utilities
